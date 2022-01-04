@@ -14,3 +14,5 @@ class LocalFailure extends Failure {
   final String message;
   LocalFailure(this.message) : super();
 }
+
+class InputFailure extends Failure {}
